@@ -2,7 +2,7 @@ import os
 
 class Config(object):
       def __init__(self):
-          self.BotToken     = os.environ["TOKEN"]
+          self.BotToken     = os.environ["5299785260:AAFZpMvvTqdCLiksF23SLxxFHQ_T4ZIXLhE"]
           self.ChunkSize    = 80
           self.ChunkSizeTel = 1000
           self.ChunkFixed   = 150
