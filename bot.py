@@ -14,9 +14,9 @@ import time
 
 conf = Config()
 
-bot_token = '1323984464:AAEAt7PfJhwcbhyHUbFOkVwGE_EPquKayOU'
-api_id = '1875243'
-api_hash = '18b2df9f73cc83259faf84f9ba0f91a7'
+bot_token = '5299785260:AAFZpMvvTqdCLiksF23SLxxFHQ_T4ZIXLhE'
+api_id = '16847867'
+api_hash = 'fb2335b889dc8277340668f2fa8bee21'
 
 api_id = int(api_id)
 async def text_progres(index,max):
