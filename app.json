@@ -1,0 +1,42 @@
+{
+  "name": "Up",
+  "description": "Con este Bot se puede subir contenido desde internet hacia la nube",
+  
+  "website": "https://github.com/Jjwincrak/Officialbot",
+  "repository": "https://github.com/Jjwincrak/Officialbot",
+  "stack": "heroku-20",
+  "env": {
+
+    "API_ID": {
+      "description": "Obten este valor https://my.telegram.org/apps",
+      "value": "1875243"
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org/apps",
+      "value": "18b2df9f73cc83259faf84f9ba0f91a7"
+    },
+    "TOKEN": {
+      "description": "Token del bot que vas a configurar",
+      "value": "1926772761:AAFvnrvgF9YYIj4AXNB828FJtOvgHJk3T0c"
+    },
+    "USER": {
+      "description": "Usuario de moodle",
+      "value": "livanp"
+    },
+    "PASSWORD": {
+      "description": "Contraseña del usuario de moodle",
+      "value": "Copernico*2"
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
